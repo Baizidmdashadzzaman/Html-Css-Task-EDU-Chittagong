@@ -1,0 +1,102 @@
+/* Navbar css */
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+  body {
+    margin: 0;
+    font-family: 'Nunito';
+    background-color: rgb(232, 250, 227);
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #32afe9;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: green;
+    color: white;
+  }
+
+  /* Navbar css */
+
+ /* Top div with background image */
+
+ .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: black;
+  }
+
+  /* Top div with background image */
+
+  /* Tribute div */
+  .centerdiv{
+      /* align-items: center; */
+      width: 60%;
+      padding-bottom: 50px;
+      padding-top: 50px;
+  }
+  .centertext{
+    text-align: center;
+  }
+  .boderradius{
+    border-radius: 10px;
+  }
+  /* Tribute div */
+
+  /* bd force div */
+  .centerdiv2{
+    width: 70%;
+    padding-bottom: 300px;
+  }
+  .threeebox {
+    float:left;
+    /* background:Red; */
+    width:33%;
+    height:280px;
+  }
+  .threeeboxineer{
+    padding: 10px;
+  }
+  /* bd force div */
+
+  /* tribute page */
+   .twobox1 {
+      float:left;
+      width:60%;
+    }
+    .twobox2 {
+        float:left;
+        width:40%;
+    }
+    .centerdiv3{
+        padding: 100px;
+    }
+  /* tribute page */
+
+  .centerdiv4{
+    width: 70%;
+    padding-bottom: 10px;
+  }
